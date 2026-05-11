@@ -16,7 +16,7 @@ let package = Package(
         .target(
             name: "FastEasyMapping",
             dependencies: [],
-            path: "FastEasyMapping/"
+            path: "FastEasyMapping/Source"
         )
     ]
 )
