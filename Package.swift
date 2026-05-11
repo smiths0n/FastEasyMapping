@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .target(
             name: "FastEasyMapping iOS",
-            dependencies: [],
-            path: "FastEasyMapping/Source"
+            path: "FastEasyMapping/",
+            exclude: "FastEasyMapping/Info.plist"
         )
     ]
 )
