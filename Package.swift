@@ -9,12 +9,12 @@ let package = Package(
     products: [
         .library(
             name: "FastEasyMapping",
-            targets: ["FastEasyMapping"]
+            targets: ["FastEasyMapping iOS"]
         )
     ],
     targets: [
         .target(
-            name: "FastEasyMapping",
+            name: "FastEasyMapping iOS",
             dependencies: [],
             path: "FastEasyMapping/Source"
         )
