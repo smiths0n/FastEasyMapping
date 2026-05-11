@@ -9,14 +9,14 @@ let package = Package(
     products: [
         .library(
             name: "FastEasyMapping",
-            targets: ["FastEasyMapping iOS"]
+            targets: ["FastEasyMapping"]
         )
     ],
     targets: [
         .target(
-            name: "FastEasyMapping iOS",
+            name: "FastEasyMapping",
             path: "FastEasyMapping/",
-            exclude: "FastEasyMapping/Info.plist"
+            publicHeadersPath: "."
         )
     ]
 )
