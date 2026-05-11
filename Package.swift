@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Updates",
+    name: "FastEasyMapping",
     platforms: [
         .iOS("17.0")
     ],
