@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .target(
             name: "FastEasyMapping iOS",
-            path: "FastEasyMapping/",
+            path: "FastEasyMapping/Source",
             publicHeadersPath: "."
         )
     ]
